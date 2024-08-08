@@ -23,8 +23,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Research:** My primary research area, AI for Science, integrates physical system analysis with machine learning methodologies. Computational physics, developed over centuries, is essential for understanding the universe and creating new technologies. Meanwhile, AI has revolutionized many sectors. Though these fields may seem distinct, they are complementary: physical insights improve data-driven methods’ efficacy, and data-driven methods capture physical laws flexibly. Leveraging abundant data, these methods provide statistical insights, augment traditional research, and offer efficient computing infrastructure for enhanced efficiency.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include but not limited to 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* probabilistic machine learning and modeling, approximate inference
+* surrogate modeling, operator learning, physics-informed machine learning
+* multi-task learning, meta learning, transfer learning
+* interactive machine learning and optimization
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+**Education:** I obtained my Ph.D. degree in Computer Science from <a href='https://www.cs.utah.edu/'>The Kahlert School of Computing (SoC)</a> at <a href='https://www.utah.edu/'>The University of Utah</a>. During my Ph.D study, I was honorly advised by <a href='https://users.cs.utah.edu/~zhe/'>Dr. Shandian Zhe</a>. I received my M.S. degree from <a href='https://www.pitt.edu/'>University of Pittsburgh</a> and my B.E. degree from <a href='https://www.scut.edu.cn/en/'>South China University of Technology (SCUT)</a>.
