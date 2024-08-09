@@ -7,7 +7,7 @@ subtitle: |+
   Assistant Professor, <br>
   Department of Computer Science, <br>
   <a href='https://www.fsu.edu/'>Florida State University (FSU)</a>, <br>
-  <a href="mailto:shiboli@cs.fsu.edu" target="_blank">shibo@cs.fsu.edu</a>
+  <a href="mailto:shiboli@cs.fsu.edu" target="_blank">shiboli@cs.fsu.edu</a>
 
 profile:
   align: right
