@@ -40,7 +40,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 **Education:** I obtained my Ph.D. degree in Computer Science from <a href='https://www.cs.utah.edu/'>The Kahlert School of Computing (SoC)</a> at <a href='https://www.utah.edu/'>The University of Utah</a>. During my Ph.D study, I was honorly advised by <a href='https://users.cs.utah.edu/~zhe/'>Dr. Shandian Zhe</a>. I received my M.S. degree from <a href='https://www.pitt.edu/'>University of Pittsburgh</a> and my B.E. degree from <a href='https://www.scut.edu.cn/en/'>South China University of Technology (SCUT)</a>.
 
-<span style="color:#782F40"> <b><u>FYI:</u></b> I am avtively looking for self-motivated students to work on interdisciplinary projects in the landscape of <b><i>AI for Science</i></b>. Please see the openings <u><a href='/opening/'>here</a></u>.
+<span style="color:#782F40"> <b><u>FYI:</u></b> I am avtively looking for self-motivated students to work on interdisciplinary projects in the landscape of <b><i>AI for Science</i></b>. Please see the details <u><a href='/opening/'>here</a></u>.
 </span>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=256&t=tt&d=4ekg0sXBe9Ac7D0iSNikhW48qSj2grK4_CNEEmDti0E'></script>
