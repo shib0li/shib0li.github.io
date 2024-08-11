@@ -3,6 +3,66 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{li2023multiresolution,
+  title={Multi-Resolution Active Learning of Fourier Neural Operators}, 
+  author={Shibo Li and Xin Yu and Wei Xing and Mike Kirby and Akil Narayan and Shandian Zhe},
+  booktitle={The 27th International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year={2024},
+  abstract={
+    Fourier Neural Operator (FNO) is a popular operator learning framework. It not only achieves the state-of-the-art performance in many tasks, but also is efficient in training and prediction. However, collecting training data for the FNO can be a costly bottleneck in practice, because it often demands expensive physical simulations. To overcome this problem, we propose Multi-Resolution Active learning of FNO (MRA-FNO), which can dynamically select the input functions and resolutions to lower the data cost as much as possible while optimizing the learning efficiency. Specifically, we propose a probabilistic multi-resolution FNO and use ensemble Monte-Carlo to develop an effective posterior inference algorithm. To conduct active learning, we maximize a utility-cost ratio as the acquisition function to acquire new examples and resolutions at each step. We use moment matching and the matrix determinant lemma to enable tractable, efficient utility computation. Furthermore, we develop a cost annealing framework to avoid over-penalizing high-resolution queries at the early stage. The over-penalization is severe when the cost difference is significant between the resolutions, which renders active learning often stuck at low-resolution queries and inferior performance. Our method overcomes this problem and applies to general multi-fidelity active learning and optimization problems. We have shown the advantage of our method in several benchmark operator learning tasks. 
+  },
+  bibtex_show={true},
+  abbr={AISTATS},
+  pdf={https://arxiv.org/abs/2309.16971},
+  code={https://github.com/shib0li/MRA-FNO},
+  poster={posters/aistats_2024_mrafno.pdf},
+}
+
+@inproceedings{fang2023functional,
+  title={Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data}, 
+  author={Shikai Fang and Xin Yu and Zheng Wang and Shibo Li and Mike Kirby and Shandian Zhe},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  abstract={
+    Tucker decomposition is a powerful tensor model to handle multi-aspect data. It demonstrates the low-rank property by decomposing the grid-structured data as interactions between a core tensor and a set of object representations (factors). A fundamental assumption of such decomposition is that there are finite objects in each aspect or mode, corresponding to discrete indexes of data entries. However, real-world data is often not naturally posed in this setting. For example, geographic data is represented as continuous indexes of latitude and longitude coordinates, and cannot fit tensor models directly. To generalize Tucker decomposition to such scenarios, we propose Functional Bayesian Tucker Decomposition (FunBaT). We treat the continuous-indexed data as the interaction between the Tucker core and a group of latent functions. We use Gaussian processes (GP) as functional priors to model the latent functions. Then, we convert each GP into a state-space prior by constructing an equivalent stochastic differential equation (SDE) to reduce computational cost. An efficient inference algorithm is developed for scalable posterior approximation based on advanced message-passing techniques. The advantage of our method is shown in both synthetic data and several real-world applications.  
+  },
+  bibtex_show={true},
+  abbr={ICLR},
+  pdf={https://arxiv.org/abs/2311.04829},
+  code={https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition},
+  poster={posters/ICLR-2024-FunBat-poster.pdf},
+}
+
+@inproceedings{fang2023functional,
+  title={Solving High Frequency and Multi-Scale PDEs with Gaussian Processes}, 
+  author={Shikai Fang, Madison Cooley, Da Long, Shibo Li, Mike Kirby, Shandian Zhe},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  abstract={
+    Machine learning based solvers have garnered much attention in physical simulation and scientific computing, with a prominent example, physics-informed neural networks (PINNs). However, PINNs often struggle to solve high-frequency and multi-scale PDEs, which can be due to spectral bias during neural network training. To address this problem, we resort to the Gaussian process (GP) framework. To flexibly capture the dominant frequencies, we model the power spectrum of the PDE solution with a student t mixture or Gaussian mixture. We apply the inverse Fourier transform to obtain the covariance function (by Wiener-Khinchin theorem). The covariance derived from the Gaussian mixture spectrum corresponds to the known spectral mixture kernel. Next, we estimate the mixture weights in the log domain, which we show is equivalent to placing a Jeffreys prior. It automatically induces sparsity, prunes excessive frequencies, and adjusts the remaining toward the ground truth. Third, to enable efficient and scalable computation on massive collocation points, which are critical to capture high frequencies, we place the collocation points on a grid, and multiply our covariance function at each input dimension. We use the GP conditional mean to predict the solution and its derivatives so as to fit the boundary condition and the equation itself. As a result, we can derive a Kronecker product structure in the covariance matrix. We use Kronecker product properties and multilinear algebra to promote computational efficiency and scalability, without low-rank approximations. We show the advantage of our method in systematic experiments.
+  },
+  bibtex_show={true},
+  abbr={ICLR},
+  pdf={https://arxiv.org/abs/2311.04465},
+  code={https://github.com/xuangu-fang/Gaussian-Process-Slover-for-High-Freq-PDE},
+  poster={posters/ICLR-2024-HFGP-poster.pdf},
+}
+
+@inproceedings{wang2024dynamic,
+  title={Dynamic Tensor Decomposition via Neural Diffusion-Reaction Processes}, 
+  author={Wang, Zheng and Fang, Shikai and Li, Shibo and Zhe, Shandian},
+  booktitle={the Thirty-seventh Annual Conference on Neural Information Processing Systems},
+  year={2023},
+  abstract={
+    Tensor decomposition is an important tool for multiway data analysis. In practice, the data is often sparse yet associated with rich temporal information. Existing methods, however, often under-use the time information and ignore the structural knowledge within the sparsely observed tensor entries. To overcome these limitations and to better capture the underlying temporal structure, we propose Dynamic EMbedIngs fOr dynamic Tensor dEcomposition (DEMOTE). We develop a neural diffusion-reaction process to estimate dynamic embeddings for the entities in each tensor mode. Specifically, based on the observed tensor entries, we build a multi-partite graph to encode the correlation between the entities. We construct a graph diffusion process to co-evolve the embedding trajectories of the correlated entities and use a neural network to construct a reaction process for each individual entity. In this way, our model can capture both the commonalities and personalities during the evolution of the embeddings for different entities. We then use a neural network to model the entry value as a nonlinear function of the embedding trajectories. For model estimation, we combine ODE solvers to develop a stochastic mini-batch learning algorithm. We propose a stratified sampling method to balance the cost of processing each mini-batch so as to improve the overall efficiency. We show the advantage of our approach in both simulation study and real-world applications.
+  },
+  bibtex_show={true},
+  abbr={NeurIPS},
+  pdf={https://papers.nips.cc/paper_files/paper/2023/file/4958a8ad01f524de2ec5274678ffa5a4-Paper-Conference.pdf},
+  code={https://github.com/wzhut/Dynamic-Tensor-Decomposition-via-Neural-Diffusion-Reaction-Processes},
+}
+
+
 @book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
