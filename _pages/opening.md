@@ -7,27 +7,37 @@ nav: true
 nav_order: 7
 ---
 
-<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### **Current openings**:
 
-Organize your courses by years, topics, or universities, however you like! -->
+[Download the flyer of openings HERE][1]
 
-I am looking for highly motivated students with a solid background in probability, linear algebra, and/or optimization and good programming skills. If you want to join my group, please contact me via shiboli.cs@gmail.com. In particular, if you have a strong math and/or physics background (e.g., with a BS degree in math or physics) and have coding experiences, e.g., Matlab and Python, feel free to schedule a meeting with me.
+[1]:{{site.url}}/assets/pdf/openings_flyer.pdf
 
-<!-- <span style="color:blue"><b>*Note:*</b></span> Please title you email in the format of <b>[Phd/Master/Undergraduate/Interns - YOUR NAME - STARTING TERM]</b> to get noticed.
+I am actively seeking highly motivated **Ph.D. students** (fully sponsored) and **research interns** (non-paid) with a strong foundation in *probability, linear algebra, and/or optimization and solid programming skills* to join my research group in the Department of Computer Science at Florida State University. Our group focuses on advancing the interdisciplinary studies of machine learning and scientific computing, contributing to the reciprocal relationship between these fields.
 
-Ways to work with me
-* [<b> Applying Ph.D. </b>]: Please send me your CV, transcript, TOEFL, GRE scores (if applicable), and any other materials you think would be helpful. More information could be found via <a href="https://www.cs.fsu.edu/admissions/graduate-admissions/" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">this link</a>.  <span style="color:red"> <b>Applications for Fall 2024 and Spring 2025 are still open; contact me before applying.</b></span>
+My main research focus include:
+- **Probabilistic Machine Learning:** Bayesian machine learning and modeling, approximate inference
+- **ML for Scientific Computing:** surrogate modeling, operator learning, physics-informed machine learning
+- **Multi-Objective ML:** multi-task learning, meta-learning, transfer learning
+- **Interactive Machine Learning:** active learning, Bayesian optimization, bandits, reinforcement learning
 
-* [<b> Existing master, undergraduate students </b>]: If you are a master's or undergraduate student who has already been affiliated with FSU and want to expose yourself to state-of-the-art machine learning research, please send me your CV/Resume to my email. 
-* [<b> Reseach Interns </b>]: Feel free to contact me. -->
+Before joining FSU, I obtained my Ph.D. degree from the School of Computing at the University of Utah. I received my M.S. degree from the University of Pittsburgh and my B.E. degree from South China University of Technology.
 
-<!-- <span style="color:red"> I am looking for highly motivated students with a solid background in probability, linear algebra, and/or optimization and good programming skills. If you want to join my group, please contact me via shiboli.cs@gmail.com. In particular, if you have a strong math and/or physics background (e.g., with a BS degree in math or physics) and have coding experiences, e.g., Matlab and Python), feel free to schedule a meeting with me.</span>
+#### **Requirements (for Ph.D. applicants):**
+- GPA ≥ 3.5/4.0
+- TOEFL > 80 for international students (speaking ≥ 23 desired)
+- Background in Computer Science, Mathematics, Physics, Statistics, and ECE is preferred.
+- Programming experience
+- Familiar with modern machine learning frameworks is preferred such as TensorFlow, PyTorch, Jax.
 
-<span style="color:blue"><b>*Note:*</b></span> Please title you email in the format of <b>[Phd/Master/Undergraduate/Interns - YOUR NAME - STARTING TERM]</b> to get noticed.
+#### **Application Package (for Ph.D. applicants):**
+- Curriculum Vitae/Resume
+- Statement of Purpose
+- Official transcripts with GPA
+- GRE test results
+- Three letters of recommendation
+- TOEFL or IELTS scores for international students
 
-Ways to work with me
-* [<b> Applying Ph.D. </b>]: Please send me your CV, transcript, TOEFL, GRE scores (if applicable), and any other materials you think would be helpful. More information could be found via <a href="https://www.cs.fsu.edu/admissions/graduate-admissions/" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">this link</a>. 
-
-    <span style="color:red"> <b>Applications for Fall 2024 and Spring 2025 are still open; contact me before applying.</b></span>
-* [<b> Existing master, undergraduate students </b>]: If you are a master's or undergraduate student who has already been affiliated with FSU and want to expose yourself to state-of-the-art machine learning research, please send me your CV/Resume to my email. 
-* [<b> Reseach Interns </b>]: Feel free to contact me. -->
+#### **How to Apply:**
+- For Ph.D. applicants, please apply through FSU official website  [FSU CS official website](https://www.cs.fsu.edu/admissions/graduate-admissions/fsu-computer-science-department-graduate-study-application-information/) and email your **CV**, **transcript** and **a short statement of motivation** to [shiboli@cs.fsu.edu](mailto:shiboli@cs.fsu.edu).
+- For research interns, please email you latest **CV** and **a short statement of your motivation** to [shiboli@cs.fsu.edu](mailto:shiboli@cs.fsu.edu).
