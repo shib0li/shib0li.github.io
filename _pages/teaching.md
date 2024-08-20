@@ -11,4 +11,4 @@ nav_order: 6
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-Fall 2024 - Introduction to Programming in C++ for Majors (*Coming soon!*)
+Fall 2024 - [COP3363: Introduction to Programming in C++ for Majors](https://cop3363fall2024.github.io/)
