@@ -14,7 +14,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>206 James Jay Love Building (LOV)</p>
+    <p>206A James Jay Love Building (LOV)</p>
     <p>1017 Academic Way</p>
     <p>Tallahassee, FL 32304</p>
 
