@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-group",
-          title: "group",
-          description: "Lab of Probabilistic Machine Learning for Scientific Computing (PML4SC)",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/group/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
