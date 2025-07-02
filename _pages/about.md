@@ -51,4 +51,13 @@ Put your address / P.O. box / other info right below your picture. You can also 
 <span style="color:#782F40"> <b><u>FYI:</u></b> I am avtively looking for self-motivated students to work on interdisciplinary projects in the landscape of <b><i>AI for Science</i></b>. Please see the details in <u><a href='/opening/'>here</a></u>.
 </span>
 
+**Group of PML4SC - Probabilistic Machine Learning for Scientific Computing**
+* <a href='https://pml4sc.github.io/'>our group site</a>
+* <a href='https://pml4sc.github.io/seminar/'>our seminar page</a>
+
+**Current Students:**
+* Junqi Qu (Ph.D.)
+* Sipeng Chen (Ph.D.)
+* Yan Zhang (Ph.D.)
+
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=256&t=tt&d=4ekg0sXBe9Ac7D0iSNikhW48qSj2grK4_CNEEmDti0E'></script>
