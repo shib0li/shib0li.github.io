@@ -3,9 +3,26 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{chen2025heuristicsgloballyoptimalconfiguration,
+  title={Beyond Heuristics: Globally Optimal Configuration of Implicit Neural Representations}, 
+  author={ Sipeng Chen and Yan Zhang and Shibo Li},
+  booktitle={arXiv},
+  eprint={2509.23139},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  year={2025},
+  abstract={
+    Implicit Neural Representations (INRs) have emerged as a transformative paradigm in signal processing and computer vision, excelling in tasks from image reconstruction to 3D shape modeling. Yet their effectiveness is fundamentally limited by the absence of principled strategies for optimal configuration - spanning activation selection, initialization scales, layer-wise adaptation, and their intricate interdependencies. These choices dictate performance, stability, and generalization, but current practice relies on ad-hoc heuristics, brute-force grid searches, or task-specific tuning, often leading to inconsistent results across modalities. This work introduces OptiINR, the first unified framework that formulates INR configuration as a rigorous optimization problem. Leveraging Bayesian optimization, OptiINR efficiently explores the joint space of discrete activation families - such as sinusoidal (SIREN), wavelet-based (WIRE), and variable-periodic (FINER) - and their associated continuous initialization parameters. This systematic approach replaces fragmented manual tuning with a coherent, data-driven optimization process. By delivering globally optimal configurations, OptiINR establishes a principled foundation for INR design, consistently maximizing performance across diverse signal processing applications.  },
+  bibtex_show={true},
+  abbr={Preprint},
+  pdf={https://arxiv.org/abs/2509.23139},
+  selected={true},
+}
+}
+
 @inproceedings{li2025multiphysicssimulationscoupledfourier,
-  title={Multi-Physics Simulations via Coupled Fourier Neural Operator}, 
-  author={Shibo Li and Tao Wang and Yifei Sun and Hewei Tang},
+  title={COMPOL: A Unified Neural Operator Framework for Scalable Multi-Physics Simulations}, 
+  author={ Yifei Sun and Tao Wang and Junqi Qu and Yushun Dong and Hewei Tang and Shibo Li},
   booktitle={arXiv},
   eprint={2501.17296},
   archivePrefix={arXiv},
@@ -17,6 +34,19 @@
   bibtex_show={true},
   abbr={Preprint},
   pdf={https://arxiv.org/abs/2501.17296},
+  selected={true},
+}
+
+@inproceedings{10.1145/3711896.3736848,
+  title={ATOM: A Framework of Detecting Query-Based Model Extraction Attacks for Graph Neural Networks}, 
+  author={Zhan Cheng and Bolin Shen and Tianming Sha and Yuan Gao and Shibo Li and Yushun Dong},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2025},
+  abstract = {Graph Neural Networks (GNNs) have gained traction in Graph-based Machine Learning as a Service (GMLaaS) platforms, yet they remain vulnerable to graph-based model extraction attacks (MEAs), where adversaries reconstruct surrogate models by querying the victim model. Existing defense mechanisms, such as watermarking and fingerprinting, suffer from poor real-time performance, susceptibility to evasion, or reliance on post-attack verification, making them inadequate for handling the dynamic characteristics of graph-based MEA variants. To address these limitations, we propose ATOM, a novel real-time MEA detection framework tailored for GNNs. ATOM integrates sequential modeling and reinforcement learning to dynamically detect evolving attack patterns, while leveraging k-core embedding to capture the structural properties, enhancing detection precision. Furthermore, we provide theoretical analysis to characterize query behaviors and optimize detection strategies. Extensive experiments on multiple real-world datasets demonstrate that ATOM outperforms existing approaches in detection performance, maintaining stable across different time steps, thereby offering a more effective defense mechanism for GMLaaS environments. Our source code is available at https://github.com/LabRAI/ATOM.},
+  bibtex_show={true},
+  abbr={SIGKDD},
+  pdf={https://doi.org/10.1145/3711896.3736848},
+  code={https://github.com/shib0li/MRA-FNO},
   selected={true},
 }
 

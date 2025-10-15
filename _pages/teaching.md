@@ -11,6 +11,8 @@ nav_order: 5
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-Spring 2025 - [CIS 5930: Probabilistic Machine Learning and Modeling](https://cis5930.github.io/)
+Fall 2025 - COP3363: Introduction to Programming in C++ for Majors
+
+Spring 2025 - CIS 5930: Probabilistic Machine Learning and Modeling
 
 Fall 2024 - COP3363: Introduction to Programming in C++ for Majors
