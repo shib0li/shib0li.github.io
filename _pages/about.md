@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -59,5 +59,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 * Junqi Qu (Ph.D.)
 * Sipeng Chen (Ph.D.)
 * Yan Zhang (Ph.D.)
+* Yifan Dou (Ph.D.)
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=256&t=tt&d=4ekg0sXBe9Ac7D0iSNikhW48qSj2grK4_CNEEmDti0E'></script>

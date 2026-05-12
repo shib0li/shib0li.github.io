@@ -3,19 +3,6 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{zhang2026regimeadaptivebayesianoptimizationdirichlet,
-  title={Regime-Adaptive Bayesian Optimization via Dirichlet Process Mixtures of Gaussian Processes}, 
-  author={Yan Zhang and Xuefeng Liu and Sipeng Chen and Sascha Ranftl and Chong Liu and Shibo Li},
-  booktitle={arXiv},
-  year={2026},
-  eprint={2601.20043},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  bibtex_show={true},
-  abbr={Preprint},
-  pdf={https://arxiv.org/abs/2601.20043},
-  selected={true},
-}
 
 @inproceedings{qu2025dynamicbayesianoptimizationframework,
   title={Dynamic Bayesian Optimization Framework for Instruction Tuning in Partial Differential Equation Discovery}, 
@@ -25,7 +12,7 @@
   eprint={2601.00088},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  bibtex_show={true},
+  bibtex_show={false},
   abbr={Preprint},
   pdf={https://arxiv.org/abs/2601.00088},
   selected={true},
@@ -41,26 +28,41 @@
   year={2025},
   abstract={
     Implicit Neural Representations (INRs) have emerged as a transformative paradigm in signal processing and computer vision, excelling in tasks from image reconstruction to 3D shape modeling. Yet their effectiveness is fundamentally limited by the absence of principled strategies for optimal configuration - spanning activation selection, initialization scales, layer-wise adaptation, and their intricate interdependencies. These choices dictate performance, stability, and generalization, but current practice relies on ad-hoc heuristics, brute-force grid searches, or task-specific tuning, often leading to inconsistent results across modalities. This work introduces OptiINR, the first unified framework that formulates INR configuration as a rigorous optimization problem. Leveraging Bayesian optimization, OptiINR efficiently explores the joint space of discrete activation families - such as sinusoidal (SIREN), wavelet-based (WIRE), and variable-periodic (FINER) - and their associated continuous initialization parameters. This systematic approach replaces fragmented manual tuning with a coherent, data-driven optimization process. By delivering globally optimal configurations, OptiINR establishes a principled foundation for INR design, consistently maximizing performance across diverse signal processing applications.  },
-  bibtex_show={true},
+  bibtex_show={false},
   abbr={Preprint},
   pdf={https://arxiv.org/abs/2509.23139},
   selected={true},
 }
 
+@inproceedings{zhang2026regimeadaptivebayesianoptimizationdirichlet,
+  title={Regime-Adaptive Bayesian Optimization via Dirichlet Process Mixtures of Gaussian Processes}, 
+  author={Yan Zhang and Xuefeng Liu and Sipeng Chen and Sascha Ranftl and Chong Liu and Shibo Li},
+  booktitle={Forty-Third International Conference on Machine Learning},
+  year={2026},
+  eprint={2601.20043},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  bibtex_show={false},
+  abbr={ICML},
+  pdf={https://arxiv.org/abs/2601.20043},
+  selected={true},
+}
+
+
 
 @inproceedings{li2025multiphysicssimulationscoupledfourier,
   title={COMPOL: A Unified Neural Operator Framework for Scalable Multi-Physics Simulations}, 
-  author={ Yifei Sun and Tao Wang and Junqi Qu and Yushun Dong and Hewei Tang and Shibo Li},
-  booktitle={arXiv},
+  author={ Junqi Qu and Tao Wang and Yushun Dong and Hewei Tang and Shibo Li},
+  booktitle={2026 IEEE World Congress on Computational Intelligence (WCCI)},
   eprint={2501.17296},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  year={2025},
+  year={2026},
   abstract={
     Physical simulations are essential tools across critical fields such as mechanical and aerospace engineering, chemistry, meteorology, etc. While neural operators, particularly the Fourier Neural Operator (FNO), have shown promise in predicting simulation results with impressive performance and efficiency, they face limitations when handling real-world scenarios involving coupled multi-physics outputs. Current neural operator methods either overlook the correlations between multiple physical processes or employ simplistic architectures that inadequately capture these relationships. To overcome these challenges, we introduce a novel coupled multi-physics neural operator learning (COMPOL) framework that extends the capabilities of Fourier operator layers to model interactions among multiple physical processes. Our approach implements feature aggregation through recurrent and attention mechanisms, enabling comprehensive modeling of coupled interactions. Our method's core is an innovative system for aggregating latent features from multi-physics processes. These aggregated features serve as enriched information sources for neural operator layers, allowing our framework to capture complex physical relationships accurately. We evaluated our coupled multi-physics neural operator across diverse physical simulation tasks, including biological systems, fluid mechanics, and multiphase flow in porous media. Our proposed model demonstrates a two to three-fold improvement in predictive performance compared to existing approaches. 
   },
-  bibtex_show={true},
-  abbr={Preprint},
+  bibtex_show={false},
+  abbr={IJCNN/WCCI},
   pdf={https://arxiv.org/abs/2501.17296},
   selected={true},
 }
