@@ -387,16 +387,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-compol-a-scalable-neural-operator-framework-for-multi-physics-simulations-has-been-accepted-to-ijcnn-wcci-2026-congratulations-to-junqi",
+          title: 'Our paper COMPOL: A Scalable Neural Operator Framework for Multi-Physics Simulations, has been...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-regime-adaptive-bayesian-optimization-via-dirichlet-process-mixtures-of-gaussian-processes-has-been-accepted-to-icml-2026-congratulations-to-yan",
+          title: 'Our paper Regime-Adaptive Bayesian Optimization via Dirichlet Process Mixtures of Gaussian Processes, has...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
