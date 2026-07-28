@@ -60,5 +60,3 @@ Put your address / P.O. box / other info right below your picture. You can also 
 * Sipeng Chen (Ph.D.)
 * Yan Zhang (Ph.D.)
 * Yifan Dou (Ph.D.)
-
-

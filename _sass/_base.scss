@@ -441,6 +441,23 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Visitor map (very bottom of the about page)
+
+.visitor-map {
+  width: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+
+  img,
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
