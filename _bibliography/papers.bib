@@ -3,6 +3,45 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{zhang2026verbalizedparticleposteriorbayesian,
+  title={Verbalized Particle Posterior: Bayesian Inference over Natural Language Hypotheses}, 
+  author={Yan Zhang and Shikan Lian and Shibo Li},
+  booktitle={arXiv},
+  year={2026},
+  eprint={2607.22961},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  abbr={Preprint},
+  pdf={https://arxiv.org/abs/2607.22961},
+  selected={true},
+}
+
+@inproceedings{zhang2026consistencygatepreventingmemorycontamination,
+  title={ConsistencyGate: Preventing Memory Contamination in LLM Agents via Self-Consistency Admission Control}, 
+  author={Yan Zhang and Shibo Li},
+  booktitle={arXiv},
+  year={2026},
+  eprint={2607.22962},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  abbr={Preprint},
+  pdf={https://arxiv.org/abs/2607.22962}, 
+  selected={true},
+}
+
+@inproceedings{chen2026multifidelityflowmatchingcascaded,
+  title={Multi-Fidelity Flow Matching: Cascaded Refinement of PDE Solutions}, 
+  author={Sipeng Chen and Junliang Liu and Hewei Tang and Shibo Li},
+  booktitle={arXiv},
+  year={2026},
+  eprint={2605.16118},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  abbr={Preprint},
+  pdf={https://arxiv.org/abs/2605.16118}, 
+  selected={true},
+}
+
 
 @inproceedings{qu2025dynamicbayesianoptimizationframework,
   title={Dynamic Bayesian Optimization Framework for Instruction Tuning in Partial Differential Equation Discovery}, 
@@ -12,7 +51,6 @@
   eprint={2601.00088},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  bibtex_show={false},
   abbr={Preprint},
   pdf={https://arxiv.org/abs/2601.00088},
   selected={true},
@@ -26,7 +64,6 @@
   year={2026},
   abstract={
     Implicit Neural Representations (INRs) have emerged as a transformative paradigm in signal processing and computer vision, excelling in tasks from image reconstruction to 3D shape modeling. Yet their effectiveness is fundamentally limited by the absence of principled strategies for optimal configuration - spanning activation selection, initialization scales, layer-wise adaptation, and their intricate interdependencies. These choices dictate performance, stability, and generalization, but current practice relies on ad-hoc heuristics, brute-force grid searches, or task-specific tuning, often leading to inconsistent results across modalities. This work introduces OptiINR, the first unified framework that formulates INR configuration as a rigorous optimization problem. Leveraging Bayesian optimization, OptiINR efficiently explores the joint space of discrete activation families - such as sinusoidal (SIREN), wavelet-based (WIRE), and variable-periodic (FINER) - and their associated continuous initialization parameters. This systematic approach replaces fragmented manual tuning with a coherent, data-driven optimization process. By delivering globally optimal configurations, OptiINR establishes a principled foundation for INR design, consistently maximizing performance across diverse signal processing applications.  },
-  bibtex_show={false},
   abbr={ECCV},
   pdf={https://arxiv.org/abs/2509.23139},
   selected={true},
@@ -40,7 +77,6 @@
   eprint={2601.20043},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  bibtex_show={false},
   abbr={ICML},
   pdf={https://arxiv.org/abs/2601.20043},
   selected={true},
@@ -59,7 +95,6 @@
   abstract={
     Physical simulations are essential tools across critical fields such as mechanical and aerospace engineering, chemistry, meteorology, etc. While neural operators, particularly the Fourier Neural Operator (FNO), have shown promise in predicting simulation results with impressive performance and efficiency, they face limitations when handling real-world scenarios involving coupled multi-physics outputs. Current neural operator methods either overlook the correlations between multiple physical processes or employ simplistic architectures that inadequately capture these relationships. To overcome these challenges, we introduce a novel coupled multi-physics neural operator learning (COMPOL) framework that extends the capabilities of Fourier operator layers to model interactions among multiple physical processes. Our approach implements feature aggregation through recurrent and attention mechanisms, enabling comprehensive modeling of coupled interactions. Our method's core is an innovative system for aggregating latent features from multi-physics processes. These aggregated features serve as enriched information sources for neural operator layers, allowing our framework to capture complex physical relationships accurately. We evaluated our coupled multi-physics neural operator across diverse physical simulation tasks, including biological systems, fluid mechanics, and multiphase flow in porous media. Our proposed model demonstrates a two to three-fold improvement in predictive performance compared to existing approaches. 
   },
-  bibtex_show={false},
   abbr={IJCNN/WCCI},
   pdf={https://arxiv.org/abs/2501.17296},
   selected={true},
@@ -71,7 +106,6 @@
   booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year={2025},
   abstract = {Graph Neural Networks (GNNs) have gained traction in Graph-based Machine Learning as a Service (GMLaaS) platforms, yet they remain vulnerable to graph-based model extraction attacks (MEAs), where adversaries reconstruct surrogate models by querying the victim model. Existing defense mechanisms, such as watermarking and fingerprinting, suffer from poor real-time performance, susceptibility to evasion, or reliance on post-attack verification, making them inadequate for handling the dynamic characteristics of graph-based MEA variants. To address these limitations, we propose ATOM, a novel real-time MEA detection framework tailored for GNNs. ATOM integrates sequential modeling and reinforcement learning to dynamically detect evolving attack patterns, while leveraging k-core embedding to capture the structural properties, enhancing detection precision. Furthermore, we provide theoretical analysis to characterize query behaviors and optimize detection strategies. Extensive experiments on multiple real-world datasets demonstrate that ATOM outperforms existing approaches in detection performance, maintaining stable across different time steps, thereby offering a more effective defense mechanism for GMLaaS environments. Our source code is available at https://github.com/LabRAI/ATOM.},
-  bibtex_show={true},
   abbr={SIGKDD},
   pdf={https://doi.org/10.1145/3711896.3736848},
   code={https://github.com/shib0li/MRA-FNO},
@@ -270,7 +304,7 @@
   abbr={AISTATS},
   pdf={https://proceedings.mlr.press/v151/li22b.html},
   code={https://github.com/shib0li/DMFAL},
-  selected={true}
+  selected={false}
 }
 
 @inproceedings{li2021batch,
@@ -301,7 +335,7 @@
   pdf={https://proceedings.neurips.cc/paper/2020/hash/60e1deb043af37db5ea4ce9ae8d2c9ea-Abstract.html},
   code={https://github.com/shib0li/DNN-MFBO},
   poster={posters/Poster-MFBO-4433.pdf},
-  selected={true}
+  selected={false}
 }
 
 @inproceedings{ijcai2020-340,
